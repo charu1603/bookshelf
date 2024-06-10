@@ -162,7 +162,7 @@ export default function Featured({ initialSearchTerm }) {
         </div>
         </div>
 
-        {/* Add more details here */}
+       
       </div>
     </div>
   )}
