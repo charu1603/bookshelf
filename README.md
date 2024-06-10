@@ -7,7 +7,7 @@
 
  
 **.** Functionalities
-1) search for books using the Google Books API  application.
+1) dynamic search for books using the Google Books API  application.
 2) User can categorize books 
 3) Contains filter
 4) Bookmark favourite book
