@@ -2,14 +2,8 @@ import { motion, useAnimate } from "framer-motion";
 import React,{useState} from "react";
 
 
-const Hero = ({ onSearch }) => {
-    const [searchTerm, setSearchTerm] = useState('');
-
-    const handleSearch = (event) => {
-      const term = event.target.value;
-      setSearchTerm(term);
-      onSearch(term);
-    };
+const Hero = () => {
+  
   return (
     <div className="text-white bg-[#0D0D0D] h-screen" style={{backgroundImage:`linear-gradient(#02294F, rgba(9, 14, 16, 0.0)`,backgroundSize:'100% 20%',backgroundRepeat:'no-repeat'}}>
       <div className="max-w-7xl mx-auto py-8">
@@ -25,19 +19,7 @@ const Hero = ({ onSearch }) => {
           </p>
           <div className="flex  md:w-auto w-full my-4">
           <div className="flex justify-center items-center">
-    <form action="/search" className=" w-full px-4 flex gap-6">
-       
-        <input
-          type="text"
-          name="q"
-          className="w-[450px] border h-12 shadow p-4 rounded-full dark:text-gray-800 dark:border-gray-700 dark:bg-gray-200 text-black focus:outline-none"
-          placeholder="search"
-          value={searchTerm}
-          onChange={handleSearch}
-        />
-       
   
-    </form>
 </div>
 
           </div>
